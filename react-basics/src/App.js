@@ -1,5 +1,5 @@
 import MyButton from './MyButton.js';
-import './Profile';
+import MyList from './MyList.js';
 import Profile from './Profile';
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <p>This is a paragraph.</p>
       <MyButton />
       <Profile />
+      <MyList />
     </>
   );
 }
